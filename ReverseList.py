@@ -7,11 +7,8 @@ for i in range(0,size):
     ele = input("Enter The Element:-")
     L1.append(ele)
 print(L1)
-j=-1
-for i in range(size,0,-1):
-    j = j + 1
-    # L2[j]=L1[i]
 
-    print(i)
-    print(j)
+for i in range(0,size):
+    j = size - 1 - i
+    L2.append(L1[j])
 print(L2)
