@@ -34,7 +34,7 @@ def Equals():
         data1.insert(0,"Enter Two operands")
 
 
-def deleteall():
+def deleteall():// to delete pre
     global operand1
     global operand2
     operand2 = 0
