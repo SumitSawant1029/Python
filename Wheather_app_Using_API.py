@@ -35,3 +35,18 @@ try :
         wheather_colour1 == 'white'
     reportarea = tkinter.Label(root, text=report_area)
     reportarea.grid(row=0, column=0)
+
+    StateCode = tkinter.Label(root, text=State_Code)
+    StateCode.grid(row=0, column=1)
+
+    Latitude1 = tkinter.Label(root, text=Latitude)
+    Latitude1.grid(row=0, column=2)
+
+    Quality1 = tkinter.Label(root, text=Quality,bg=wheather_colour1)
+    Quality1.grid(row=0, column=3)
+
+except Exception as e :
+    api = "Error .."
+    print(api)
+
+root.mainloop()
