@@ -24,10 +24,11 @@ for j in range(0,len(q2)):
     keys.append(key)
 
 l3=[]
+# For Some Adjustments
 Adjustments=input("Enter some adjustments (Enter 0 is no):")
-
+# Convert String to list
 string2=list(string)
-print(string2)
+
 i=0
 for j in range(0,len(q2)):
     for i in range(0,len(string2)):
