@@ -19,19 +19,18 @@ print("Index of most frequent", index1)
 
 # Finding the keys difference between the character and 
 for j in range(0, len(q2)):
-    index2 = q1.index(q2[j])
-    print(index2)	
+    index2 = q1.index(q2[j])	
     key = index2 - index1
     keys.append(key)
-print(keys)
+
 
 l3 = []
 
 # Convert String to list
 string2 = list(string)
-print(string2)
 
-print("Hello Herew")
+
+z=0
 for i in range(0,len(keys)):
     l3=[]
     for j in range(0,len(string2)):
@@ -44,3 +43,9 @@ for i in range(0,len(keys)):
     print("For ",q2[i],":-",end=" ")
     result_string = " ".join(l3)
     print(result_string)
+    z=input("Is the Sentence MeaningFull(y or n):-")
+    if(z=="y"):
+        break
+    else:
+        continue
+        
